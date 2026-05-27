@@ -38,7 +38,7 @@ export const portfolioData: PortfolioData = {
         en: 'Act as Solutions Engineer for the NICE CxOne omnichannel platform, architecting and implementing end-to-end contact center solutions. Specialize in designing and developing IVR flows, REST API integrations, cognitive BOT implementations, and omnichannel orchestration for digital channels (chat, email, social media). Serve as the technical bridge between business stakeholders, external partners, and development teams—translating complex business requirements into scalable technical architectures. Lead solution design through POCs and MVPs, create comprehensive technical documentation (system topologies, integration diagrams, implementation timelines), and conduct workshops to drive platform adoption and team enablement. Provide architectural guidance and hands-on development support, ensuring solutions align with enterprise standards while meeting performance and scalability requirements.',
         pt: 'Atuo como Engenheiro de Soluções para a plataforma omnichannel NICE CxOne, arquitetando e implementando soluções end-to-end de contact center. Especializado em projetar e desenvolver fluxos de IVR, integrações REST API, implementações de BOT cognitivo e orquestração omnichannel para canais digitais (chat, email, redes sociais). Sirvo como ponte técnica entre stakeholders de negócio, parceiros externos e equipes de desenvolvimento—traduzindo requisitos complexos de negócio em arquiteturas técnicas escaláveis. Lidero o design de soluções através de POCs e MVPs, crio documentação técnica abrangente (topologias de sistema, diagramas de integração, cronogramas de implementação) e conduzo workshops para impulsionar a adoção da plataforma e capacitação da equipe. Forneço orientação arquitetural e suporte prático de desenvolvimento, garantindo que as soluções estejam alinhadas com padrões empresariais enquanto atendem requisitos de performance e escalabilidade.',
       },
-      technologies: ['NICE CxOne', 'BotBuilder', 'IVR Studio', 'REST API', 'Cognitive BOT', 'Omnichannel', 'Solution Architecture'],
+      technologies: ['NICE CxOne', 'IVR Studio', 'REST API', 'Cognitive BOT', 'Omnichannel', 'Solution Architecture'],
     },
     {
       id: 'exp-2',
@@ -56,7 +56,7 @@ export const portfolioData: PortfolioData = {
         en: 'Led end-to-end solution design and implementation for contact center platforms, specializing in system integrators, API connectors, IVR service channels, and digital transformation projects. Architected and developed analytical portals for real-time application monitoring, process automation, and performance optimization. Served as technical lead for integration projects with CRM systems, payment gateways, and third-party APIs. Designed scalable middleware solutions using Java/Spring Boot for backend services and React/TypeScript for administrative portals. Acted as solution architect for customer projects, conducting technical workshops, translating business requirements into technical specifications, and providing architectural guidance to development teams. Mentored junior developers and fostered a culture of innovation, code quality, and continuous improvement.',
         pt: 'Liderei design e implementação de soluções end-to-end para plataformas de contact center, especializado em integradores de sistemas, conectores API, canais de atendimento IVR e projetos de transformação digital. Arquitetei e desenvolvi portais analíticos para monitoramento de aplicações em tempo real, automação de processos e otimização de performance. Atuei como líder técnico em projetos de integração com sistemas CRM, gateways de pagamento e APIs de terceiros. Projetei soluções de middleware escaláveis usando Java/Spring Boot para serviços backend e React/TypeScript para portais administrativos. Agi como arquiteto de soluções para projetos de clientes, conduzindo workshops técnicos, traduzindo requisitos de negócio em especificações técnicas e fornecendo orientação arquitetural para equipes de desenvolvimento. Mentoreei desenvolvedores júnior e promovi uma cultura de inovação, qualidade de código e melhoria contínua.',
       },
-      technologies: ['Java', 'Spring Boot', 'React', 'TypeScript', 'REST API', 'AWS', 'Docker', 'Solution Design', 'System Integration'],
+      technologies: ['Java', 'Spring Boot', 'NICE CxOne', 'BotBuilder', 'REST API', 'AWS', 'Docker', 'Solution Design', 'System Integration'],
     },
     {
       id: 'exp-3',
@@ -74,7 +74,7 @@ export const portfolioData: PortfolioData = {
         en: 'Developed and maintained IVRs using Java (AVAYA IVR) and Snippet (NICE IVR), integrating databases, consulting external APIs, and building middleware for Tomcat servers and AWS environments. Designed and optimized databases, automated data extraction and transformation processes, and enhanced system performance. Worked closely with cross-functional teams to deliver scalable solutions aligned with business objectives.',
         pt: 'Desenvolvi e mantive IVRs usando Java (AVAYA IVR) e Snippet (NICE IVR), integrando bancos de dados, consultando APIs externas e construindo middleware para servidores Tomcat e ambientes AWS. Projetei e otimizei bancos de dados, automatizei processos de extração e transformação de dados e melhorei a performance do sistema. Trabalhei em estreita colaboração com equipes multifuncionais para entregar soluções escaláveis alinhadas aos objetivos de negócio.',
       },
-      technologies: ['Java', 'AVAYA IVR', 'NICE IVR', 'MySQL', 'PostgreSQL', 'Tomcat', 'AWS'],
+      technologies: ['Java', 'IVR', 'NICE CxOne', 'Avaya Orchestration Designer', 'MySQL', 'PostgreSQL', 'Tomcat', 'AWS'],
     },
     {
       id: 'exp-4',
@@ -100,16 +100,16 @@ export const portfolioData: PortfolioData = {
     {
       id: 'proj-1',
       title: {
-        en: 'My Finances APP',
+        en: 'My Finances APP - Personal Project',
         pt: 'Meu APP de Finanças',
       },
       description: {
         en: 'Personal finance management application built with modern web technologies. Features include expense tracking, budget management, financial reports, and data visualization.',
         pt: 'Aplicação de gestão financeira pessoal construída com tecnologias web modernas. Funcionalidades incluem rastreamento de despesas, gerenciamento de orçamento, relatórios financeiros e visualização de dados.',
       },
-      image: '/projects/finances-app/screenshot.png',
+      image: '/projects/finances.mp4',
       url: 'https://finances.hardman.app.br',
-      tags: ['React', 'TypeScript', 'Spring Boot', 'PostgreSQL', 'REST API'],
+      tags: ['JAVA', 'React', 'TypeScript', 'Spring Boot', 'PostgreSQL', 'REST API'],
       isConfidential: false,
       highlights: [
         {
@@ -129,43 +129,47 @@ export const portfolioData: PortfolioData = {
     {
       id: 'proj-2',
       title: {
-        en: 'E-Commerce Music Store',
-        pt: 'Loja de Música E-Commerce',
+        en: 'Music Store - University Project',
+        pt: 'Loja de Música - Projeto Universitário',
       },
       description: {
-        en: 'Full-featured e-commerce platform for musical instruments and equipment. Includes product catalog, shopping cart, payment integration, and order management system.',
-        pt: 'Plataforma e-commerce completa para instrumentos musicais e equipamentos. Inclui catálogo de produtos, carrinho de compras, integração de pagamento e sistema de gerenciamento de pedidos.',
+        en: 'E-commerce web application for musical instruments and equipment built with Spring Boot. Features product catalog with guitars, basses, amplifiers, and accessories, user registration, shopping cart functionality, and basic sales management.',
+        pt: 'Aplicação web e-commerce para instrumentos musicais e equipamentos construída com Spring Boot. Apresenta catálogo de produtos com guitarras, baixos, amplificadores e acessórios, cadastro de usuários, funcionalidade de carrinho de compras e gerenciamento básico de vendas.',
       },
-      image: '/projects/music-store/screenshot.png',
+      image: '/projects/musicstore.mp4',
       url: 'https://shop.hardman.app.br',
-      tags: ['Next.js', 'React', 'TypeScript', 'Java', 'Spring Boot', 'MySQL'],
+      tags: ['Java', 'Spring Boot', 'Hibernate', 'JPA', 'Thymeleaf', 'H2 Database', 'Maven'],
       isConfidential: false,
       highlights: [
         {
-          en: 'Product catalog with advanced search',
-          pt: 'Catálogo de produtos com busca avançada',
+          en: 'Product catalog with categories and subcategories',
+          pt: 'Catálogo de produtos com categorias e subcategorias',
         },
         {
-          en: 'Secure payment integration',
-          pt: 'Integração segura de pagamentos',
+          en: 'Shopping cart system with price calculation',
+          pt: 'Sistema de carrinho de compras com cálculo de preços',
         },
         {
-          en: 'Order tracking and management',
-          pt: 'Rastreamento e gerenciamento de pedidos',
+          en: 'Product and inventory management',
+          pt: 'Gerenciamento de produtos e estoque',
+        },
+        {
+          en: 'Sales tracking and history',
+          pt: 'Rastreamento e histórico de vendas',
         },
       ],
     },
     {
       id: 'proj-3',
       title: {
-        en: 'Digital Agenda Platform',
+        en: 'Digital Agenda Platform - Enterprise Project',
         pt: 'Plataforma de Agenda Digital',
       },
       description: {
-        en: 'Enterprise-grade scheduling and appointment management system designed for healthcare and service industries. Features comprehensive booking workflows, automated notifications, resource management, and analytics dashboards. Built with scalability and security as core priorities.',
-        pt: 'Sistema de agendamento e gerenciamento de compromissos de nível empresarial projetado para setores de saúde e serviços. Possui fluxos abrangentes de reserva, notificações automatizadas, gerenciamento de recursos e dashboards analíticos. Construído com escalabilidade e segurança como prioridades centrais.',
+        en: 'Enterprise-grade scheduling and appointment management system designed for healthcare and service industries. Features comprehensive booking workflows, resource management, and analytics dashboards. Built with scalability and security as core priorities.',
+        pt: 'Sistema de agendamento e gerenciamento de compromissos de nível empresarial projetado para setores de saúde e serviços. Possui fluxos abrangentes de reserva, gerenciamento de recursos e dashboards analíticos. Construído com escalabilidade e segurança como prioridades centrais.',
       },
-      image: '/projects/digital-agenda/screenshot-blur.png',
+      image: '/projects/zenkai.mp4',
       isConfidential: true,
       tags: ['Java', 'Spring Boot', 'React', 'TypeScript', 'PostgreSQL', 'AWS', 'Docker', 'REST API'],
       highlights: [
@@ -177,9 +181,9 @@ export const portfolioData: PortfolioData = {
           en: 'Real-time appointment synchronization',
           pt: 'Sincronização de compromissos em tempo real',
         },
-        {
-          en: 'Automated SMS/Email notifications',
-          pt: 'Notificações SMS/Email automatizadas',
+                {
+          en: 'User registration and management',
+          pt: 'Cadastro e gerenciamento de usuários',
         },
         {
           en: 'Advanced analytics and reporting',
