@@ -37,6 +37,9 @@ export const metadata: Metadata = {
     "Arthur Hardman Borges"
   ],
   authors: [{ name: "Arthur Hardman Borges" }],
+  icons: {
+    icon: '/hardmanapplogo.ico',
+  },
   openGraph: {
     title: "Arthur Hardman Borges | Senior Software & Solutions Engineer",
     description: "Senior Software & Solutions Engineer specializing in Contact Center Platforms and Telecom Solutions",
