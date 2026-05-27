@@ -54,7 +54,7 @@ export function Header() {
           }}
           className="text-xl md:text-2xl font-bold text-text-primary hover:text-accent-primary transition-colors"
         >
-          Arthur Hardman
+          Arthur Hardman Borges
         </a>
 
         {/* Desktop Navigation */}

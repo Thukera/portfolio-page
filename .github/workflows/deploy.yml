@@ -27,23 +27,23 @@ jobs:
           
           # Build Docker image
           docker build \
-            -t em-construcao:latest .
+            -t portfolio-page:latest .
           
           # Stop old container
-          docker stop em-construcao || true
-          docker rm em-construcao || true
+          docker stop portfolio-page || true
+          docker rm portfolio-page || true
           
           # Run new container
           docker run -d \
             -p 3005:3005 \
-            --name em-construcao \
+            --name portfolio-page \
             --restart unless-stopped \
-            em-construcao:latest
+            portfolio-page:latest
           
           # Verify
           sleep 5
           
-          if docker ps | grep -q em-construcao; then
+          if docker ps | grep -q portfolio-page; then
             echo "✅ Frontend deployed!"
             echo "🌐 App: https://hardman.app.br"
           else
