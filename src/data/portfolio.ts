@@ -109,7 +109,7 @@ export const portfolioData: PortfolioData = {
       },
       image: '/projects/finances.mp4',
       url: 'https://finances.hardman.app.br',
-      tags: ['JAVA', 'React', 'TypeScript', 'Spring Boot', 'PostgreSQL', 'REST API'],
+      tags: ['Java', 'React', 'TypeScript', 'Spring Boot', 'PostgreSQL', 'REST API'],
       isConfidential: false,
       highlights: [
         {
@@ -137,7 +137,7 @@ export const portfolioData: PortfolioData = {
         pt: 'Aplicação web e-commerce para instrumentos musicais e equipamentos construída com Spring Boot. Apresenta catálogo de produtos com guitarras, baixos, amplificadores e acessórios, cadastro de usuários, funcionalidade de carrinho de compras e gerenciamento básico de vendas.',
       },
       image: '/projects/musicstore.mp4',
-      url: 'https://shop.hardman.app.br',
+      url: 'https://music-store.hardman.app.br',
       tags: ['Java', 'Spring Boot', 'Hibernate', 'JPA', 'Thymeleaf', 'H2 Database', 'Maven'],
       isConfidential: false,
       highlights: [
