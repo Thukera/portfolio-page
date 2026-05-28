@@ -41,11 +41,12 @@ export function HeroSection() {
           <div className="flex justify-center mb-8 animate-fade-in">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-accent-primary to-accent-secondary rounded-full blur-xl opacity-30 animate-pulse"></div>
-              <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full border-4 border-accent-primary overflow-hidden bg-bg-card">
+              <div className="relative w-48 h-48 md:w-60 md:h-60 rounded-full border-4 border-accent-primary overflow-hidden bg-bg-card">
                 <img 
                   src="/photo/profile.jpeg" 
                   alt={portfolioData.contact.name}
                   className="w-full h-full object-cover"
+                  style={{ objectPosition: 'center 30%' }}
                   onError={(e) => {
                     // Fallback to placeholder if image not found
                     e.currentTarget.style.display = 'none';

@@ -109,7 +109,7 @@ export const portfolioData: PortfolioData = {
       },
       image: '/projects/finances.mp4',
       url: 'https://finances.hardman.app.br',
-      tags: ['Java', 'React', 'TypeScript', 'Spring Boot', 'PostgreSQL', 'REST API'],
+      tags: ['Java', 'React', 'TypeScript', 'Spring Boot', 'PostgreSQL', 'PWA', 'REST API', 'Bulma'],
       isConfidential: false,
       highlights: [
         {
@@ -138,7 +138,7 @@ export const portfolioData: PortfolioData = {
       },
       image: '/projects/musicstore.mp4',
       url: 'https://music-store.hardman.app.br',
-      tags: ['Java', 'Spring Boot', 'Hibernate', 'JPA', 'Thymeleaf', 'H2 Database', 'Maven'],
+      tags: ['Java', 'Spring Boot', 'Hibernate', 'JPA', 'Thymeleaf', 'H2 Database', 'Maven', 'Bootstrap'],
       isConfidential: false,
       highlights: [
         {
@@ -171,7 +171,7 @@ export const portfolioData: PortfolioData = {
       },
       image: '/projects/zenkai.mp4',
       isConfidential: true,
-      tags: ['Java', 'Spring Boot', 'React', 'TypeScript', 'PostgreSQL', 'AWS', 'Docker', 'REST API'],
+      tags: ['Java', 'Spring Boot', 'React', 'TypeScript', 'PWA','PostgreSQL', 'AWS', 'Docker', 'REST API', 'Tailwind CSS'],
       highlights: [
         {
           en: 'Multi-tenant architecture for healthcare providers',
