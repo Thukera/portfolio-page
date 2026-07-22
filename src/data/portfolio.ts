@@ -96,6 +96,169 @@ export const portfolioData: PortfolioData = {
     },
   ],
 
+  caseStudies: [
+    {
+      id: 'case-1',
+      title: {
+        en: 'First-of-its-kind NICE Implementation in Brazil',
+        pt: 'Primeira Implementação NICE de seu Tipo no Brasil',
+      },
+      industry: {
+        en: 'Insurance',
+        pt: 'Seguros',
+      },
+      description: {
+        en: 'I led the integration architecture for one of NICE\'s first major implementations in Brazil, for a large national insurance company. I designed a Java middleware hosted on AWS that centralized all REST integrations and decoupled the NICE platform from the client\'s internal systems, along with an analytics dashboard tracking the full customer journey.',
+        pt: 'Liderei a arquitetura de integração para uma das primeiras grandes implementações da NICE no Brasil, para uma grande seguradora nacional. Projetei um middleware Java hospedado na AWS que centralizou todas as integrações REST e desacoplou a plataforma NICE dos sistemas internos do cliente, juntamente com um dashboard analítico rastreando toda a jornada do cliente.',
+      },
+      result: {
+        en: 'The architecture became the standard for future projects, and the dashboard evolved into a multi-tenant product now used by several major corporate clients.',
+        pt: 'A arquitetura tornou-se o padrão para projetos futuros, e o dashboard evoluiu para um produto multi-tenant agora usado por vários grandes clientes corporativos.',
+      },
+      tags: ['Solution Architecture', 'Java', 'AWS', 'REST APIs', 'Multi-tenant'],
+    },
+    {
+      id: 'case-2',
+      title: {
+        en: 'Technical Leadership at Scale',
+        pt: 'Liderança Técnica em Escala',
+      },
+      industry: {
+        en: 'Retail',
+        pt: 'Varejo',
+      },
+      description: {
+        en: 'In my first role as Tech Lead, I led Discovery and delivery of an omnichannel solution for one of Brazil\'s largest retail chains, covering financial services, e-commerce, logistics, and thousands of daily interactions. I coordinated a development team, ran code reviews, and worked directly on the most critical integrations.',
+        pt: 'Em minha primeira função como Tech Lead, liderei Discovery e entrega de uma solução omnichannel para uma das maiores redes de varejo do Brasil, cobrindo serviços financeiros, e-commerce, logística e milhares de interações diárias. Coordenei uma equipe de desenvolvimento, realizei revisões de código e trabalhei diretamente nas integrações mais críticas.',
+      },
+      result: {
+        en: 'Successful delivery of one of the company\'s largest operations, establishing my role as a technical leader on large-scale projects.',
+        pt: 'Entrega bem-sucedida de uma das maiores operações da empresa, estabelecendo meu papel como líder técnico em projetos de grande escala.',
+      },
+      tags: ['Technical Leadership', 'Team Management', 'Discovery', 'Code Review'],
+    },
+    {
+      id: 'case-3',
+      title: {
+        en: 'Real-time Performance Optimization',
+        pt: 'Otimização de Performance em Tempo Real',
+      },
+      industry: {
+        en: 'Retail / Telecom',
+        pt: 'Varejo / Telecom',
+      },
+      description: {
+        en: 'The biggest technical challenge of my career: the predictive dialer in use had an average agent idle time of nearly 90 seconds. I designed and built a Java connector using concurrent, multi-threaded processing to sync a third-party predictive engine with the existing infrastructure in real time — with zero disruption to the agent experience.',
+        pt: 'O maior desafio técnico da minha carreira: o discador preditivo em uso tinha um tempo médio de ociosidade do agente de quase 90 segundos. Projetei e construí um conector Java usando processamento concorrente e multi-thread para sincronizar um mecanismo preditivo de terceiros com a infraestrutura existente em tempo real — sem nenhuma interrupção na experiência do agente.',
+      },
+      result: {
+        en: 'Idle time dropped from ~90s to under 30s. The solution remains in production today.',
+        pt: 'O tempo de ociosidade caiu de ~90s para menos de 30s. A solução permanece em produção hoje.',
+      },
+      tags: ['Performance Engineering', 'Concurrency', 'SIP', 'Troubleshooting'],
+    },
+    {
+      id: 'case-4',
+      title: {
+        en: 'Pioneering Conversational AI Rollout',
+        pt: 'Implementação Pioneira de IA Conversacional',
+      },
+      industry: {
+        en: 'Healthcare',
+        pt: 'Saúde',
+      },
+      description: {
+        en: 'I was selected for direct training with the vendor\'s specialists to lead the first implementation of a cognitive Bot platform in Brazil, for a major healthcare company — while building the largest development team I had ever coordinated.',
+        pt: 'Fui selecionado para treinamento direto com os especialistas do fornecedor para liderar a primeira implementação de uma plataforma de Bot cognitivo no Brasil, para uma grande empresa de saúde — enquanto construía a maior equipe de desenvolvimento que já coordenei.',
+      },
+      result: {
+        en: 'Successful implementation, strengthening my technical relationship with the vendor and leading to further joint training and initiatives.',
+        pt: 'Implementação bem-sucedida, fortalecendo meu relacionamento técnico com o fornecedor e levando a mais treinamentos e iniciativas conjuntas.',
+      },
+      tags: ['Conversational AI', 'Fast Learning', 'Team Leadership', 'Innovation'],
+    },
+    {
+      id: 'case-5',
+      title: {
+        en: 'On-site Technical Consulting with a Major Financial Institution',
+        pt: 'Consultoria Técnica On-site com uma Grande Instituição Financeira',
+      },
+      industry: {
+        en: 'Banking',
+        pt: 'Bancário',
+      },
+      description: {
+        en: 'I acted as the technical point of reference for a service platform evolution project with one of Brazil\'s largest banks, traveling to work directly with the client\'s teams, leading discovery sessions, and translating business needs into technical solutions.',
+        pt: 'Atuei como ponto de referência técnica para um projeto de evolução de plataforma de serviço com um dos maiores bancos do Brasil, viajando para trabalhar diretamente com as equipes do cliente, liderando sessões de discovery e traduzindo necessidades de negócio em soluções técnicas.',
+      },
+      result: {
+        en: 'Stronger cross-team communication, reduced ambiguity during development, and deliverables better aligned with business needs.',
+        pt: 'Comunicação mais forte entre equipes, ambiguidade reduzida durante o desenvolvimento e entregas mais alinhadas com as necessidades de negócio.',
+      },
+      tags: ['Stakeholder Management', 'Discovery', 'Technical Consulting'],
+    },
+    {
+      id: 'case-6',
+      title: {
+        en: 'Large-scale Legacy Platform Migration',
+        pt: 'Migração de Plataforma Legada em Grande Escala',
+      },
+      industry: {
+        en: 'Healthcare / Insurance',
+        pt: 'Saúde / Seguros',
+      },
+      description: {
+        en: 'Following a corporate acquisition, I technically led the full migration of a service operation from a legacy platform (Avaya) to NICE CXone — including discovery, reverse-engineering existing flows, and technical governance over external vendors\' work.',
+        pt: 'Após uma aquisição corporativa, liderei tecnicamente a migração completa de uma operação de serviço de uma plataforma legada (Avaya) para NICE CXone — incluindo discovery, engenharia reversa de fluxos existentes e governança técnica sobre o trabalho de fornecedores externos.',
+      },
+      result: {
+        en: 'Migration of 20+ IVRs and digital channels, for an operation of nearly a thousand agents. I remain the technical reference for this environment today.',
+        pt: 'Migração de mais de 20 IVRs e canais digitais, para uma operação de quase mil agentes. Permaneço a referência técnica para este ambiente hoje.',
+      },
+      tags: ['Legacy Migration', 'Vendor Management', 'Technical Governance', 'Reverse Engineering'],
+    },
+    {
+      id: 'case-7',
+      title: {
+        en: 'Modernizing the Agent Experience (Internal Product)',
+        pt: 'Modernizando a Experiência do Agente (Produto Interno)',
+      },
+      industry: {
+        en: 'Healthcare',
+        pt: 'Saúde',
+      },
+      description: {
+        en: 'I identified that agents had to constantly switch between disconnected systems during service calls (~1,200 agents affected). I architected and built, from scratch, a full-stack solution (middleware + frontend on AWS) that directly integrated the scheduling system into the service environment.',
+        pt: 'Identifiquei que os agentes tinham que alternar constantemente entre sistemas desconectados durante chamadas de serviço (~1.200 agentes afetados). Arquitetei e construí, do zero, uma solução full-stack (middleware + frontend na AWS) que integrou diretamente o sistema de agendamento ao ambiente de serviço.',
+      },
+      result: {
+        en: 'A significant reduction in Average Handling Time (AHT), improved operational experience, and ongoing expansion to new company units.',
+        pt: 'Uma redução significativa no Tempo Médio de Atendimento (TMA), experiência operacional melhorada e expansão contínua para novas unidades da empresa.',
+      },
+      tags: ['Product Ownership', 'Full-stack Architecture', 'AWS', 'UX'],
+    },
+    {
+      id: 'case-8',
+      title: {
+        en: 'Strategic AI Technology Evaluation',
+        pt: 'Avaliação Estratégica de Tecnologia de IA',
+      },
+      industry: {
+        en: 'Healthcare',
+        pt: 'Saúde',
+      },
+      description: {
+        en: 'I act as the technical specialist evaluating conversational AI platforms for service automation, assessing architecture, integrations, security, and compatibility with the existing environment — serving as the bridge between international vendors and internal teams.',
+        pt: 'Atuo como especialista técnico avaliando plataformas de IA conversacional para automação de serviços, avaliando arquitetura, integrações, segurança e compatibilidade com o ambiente existente — servindo como ponte entre fornecedores internacionais e equipes internas.',
+      },
+      result: {
+        en: 'Structured comparison of different technology approaches, supporting more informed investment decisions.',
+        pt: 'Comparação estruturada de diferentes abordagens tecnológicas, apoiando decisões de investimento mais informadas.',
+      },
+      tags: ['Technology Assessment', 'Conversational AI', 'Solution Architecture'],
+    },
+  ],
+
   projects: [
     {
       id: 'proj-1',

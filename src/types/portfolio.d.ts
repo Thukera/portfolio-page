@@ -45,6 +45,15 @@ export interface Education {
   description?: BilingualText;
 }
 
+export interface CaseStudy {
+  id: string;
+  title: BilingualText;
+  industry: BilingualText;
+  description: BilingualText;
+  result: BilingualText;
+  tags: string[];
+}
+
 export interface Certification {
   id: string;
   name: string;
@@ -66,6 +75,7 @@ export interface PortfolioData {
   tagline: BilingualText;
   summary: BilingualText;
   experience: Experience[];
+  caseStudies: CaseStudy[];
   projects: Project[];
   skills: Skill[];
   education: Education[];
