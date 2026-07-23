@@ -73,7 +73,7 @@ Following a corporate acquisition, I technically led the full migration of a ser
 ### 🏆 Modernizing the Agent Experience (Internal Product)
 **Industry: Healthcare**
 
-I identified that agents had to constantly switch between disconnected systems during service calls (~1,200 agents affected). I architected and built, from scratch, a full-stack solution (middleware + frontend on AWS) that directly integrated the scheduling system into the service environment.
+Agents had to constantly switch between different systems during service calls. My mission was to design a solution that would integrate the scheduling portal directly into the NICE Softphone, reducing handling time and improving the operator experience.
 
 **Result:** a significant reduction in Average Handling Time (AHT), improved operational experience, and ongoing expansion to new company units.
 
