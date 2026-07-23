@@ -228,8 +228,8 @@ export const portfolioData: PortfolioData = {
         pt: 'Saúde',
       },
       description: {
-        en: 'I identified that agents had to constantly switch between disconnected systems during service calls (~1,200 agents affected). I architected and built, from scratch, a full-stack solution (middleware + frontend on AWS) that directly integrated the scheduling system into the service environment.',
-        pt: 'Identifiquei que os agentes tinham que alternar constantemente entre sistemas desconectados durante chamadas de serviço (~1.200 agentes afetados). Arquitetei e construí, do zero, uma solução full-stack (middleware + frontend na AWS) que integrou diretamente o sistema de agendamento ao ambiente de serviço.',
+        en: 'Agents had to constantly switch between different systems during service calls. My mission was to design a solution that would integrate the scheduling portal directly into the NICE Softphone, reducing handling time and improving the operator experience.',
+        pt: 'Identifiquei que os agentes tinham que alternar constantemente entre sistemas desconectados durante chamadas de serviço. Minha missão foi projetar uma solução que integrasse o portal de agendamento diretamente no Softphone NICE, reduzindo o tempo de atendimento e melhorando a experiência do operador.',
       },
       result: {
         en: 'A significant reduction in Average Handling Time (AHT), improved operational experience, and ongoing expansion to new company units.',
